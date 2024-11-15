@@ -15,8 +15,5 @@ public class Variaveis {
         System.out.println("Numero Inteiro: " + numeroInteiro);
         System.out.println("Numero Flutuante: " + numeroFlutuante);
         System.out.println("Cadeia Caracteres: " + cadeiaCaracteres);
-
-
-
     }
 }

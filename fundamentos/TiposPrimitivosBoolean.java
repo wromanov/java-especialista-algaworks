@@ -26,7 +26,5 @@ public class TiposPrimitivosBoolean {
         boolean estoqueSuficiente = quantidadeEstoque >= quantidadePedidoCompra;
 
         System.out.println(estoqueSuficiente);
-
-
     }
 }

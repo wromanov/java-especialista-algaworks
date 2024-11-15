@@ -10,9 +10,9 @@ public class OperadorIncremento {
         int tentativasLogin = 5;
 
         //Incremento pós-fixado, primeiro incrementa depois atribui
-        int novoTotalDownlaods = totalDownloads++;
+        int novoTotalDownloads = totalDownloads++;
 
-        System.out.println("Total Downloads " + novoTotalDownlaods);
+        System.out.println("Total Downloads " + novoTotalDownloads);
         System.out.println("Total Downloads " + totalDownloads);
 
 

@@ -7,8 +7,5 @@ public class TiposPrimitivosChar {
 
         char inicialNome = 'T';
 
-
-
-
     }
 }

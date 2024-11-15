@@ -15,7 +15,6 @@ public class TiposPrimitivosFlutuantes {
         float kilos = 32.6655357F;
         System.out.println("Kilos: " + kilos);
 
-
         /*Tamanho: 64 bits (precisão dupla).
         Faixa: Aproximadamente ±1.79769313486231570E+308 (15 dígitos de precisão).
         Uso: É o tipo padrão para números decimais no Java, e é preferido sobre float para operações de ponto flutuante mais precisos.

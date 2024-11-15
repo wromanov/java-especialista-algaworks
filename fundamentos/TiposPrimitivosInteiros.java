@@ -40,6 +40,7 @@ public class TiposPrimitivosInteiros {
         Pois o interpretador entende tudo que for digitado literalmente como inteiro.
         */
 
+
         long distanciaMarte = 9_223_372_036_854_775_807L;
         System.out.println("Distancia em marte: " + distanciaMarte);
 

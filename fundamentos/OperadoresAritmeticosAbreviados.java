@@ -24,6 +24,5 @@ public class OperadoresAritmeticosAbreviados {
         number3 *= 1;
         System.out.println(number3);
 
-
     }
 }

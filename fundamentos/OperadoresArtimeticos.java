@@ -30,9 +30,6 @@ public class OperadoresArtimeticos {
         System.out.println("Modulo da Divisão: " + moduloDivisao);
 
 
-
-
-
     }
 
 
