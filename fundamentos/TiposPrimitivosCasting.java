@@ -1,3 +1,4 @@
+package fundamentos;
 public class TiposPrimitivosCasting {
     public static void main(String[] args) {
 

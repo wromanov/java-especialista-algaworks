@@ -1,3 +1,4 @@
+package fundamentos;
 public class PromovacaoAritimetica {
     public static void main(String[] args) {
 

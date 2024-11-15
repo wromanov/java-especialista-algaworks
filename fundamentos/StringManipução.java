@@ -1,3 +1,4 @@
+package fundamentos;
 public class StringManipução {
     public static void main(String[] args) {
         int x = 10;

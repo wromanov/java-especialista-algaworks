@@ -1,9 +1,10 @@
+package fundamentos;
 public class StringFormatacao {
     public static void main(String[] args) {
 
         //Formatando Strings com "printf"
         //%s = substitui por uma string
-        //%d = substitui por um numero inteiro
+        //%d = substitui por um número inteiro
         //%n = quebra linha
 
         String nome1 = "Walace";
