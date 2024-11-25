@@ -1,4 +1,4 @@
-package poo.primeiraclassejava;
+package poo;
 
 public class Carro {
 
@@ -8,7 +8,8 @@ public class Carro {
     String cor;
     int anoFabricacao;
 
-
+    //Composição é construção de objetos que se relacionam com outros objetos.
+    Pessoa proprietario = new Pessoa();
 
 
 
