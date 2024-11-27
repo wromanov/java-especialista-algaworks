@@ -3,7 +3,7 @@ package poo;
 public class Principal {
     public static void main(String[] args) {
 
-        //Criando uma variável do tipo Carro.
+//Criando uma variável do tipo Carro.
         Carro meuCarro;
 
         //Estanciando um objeto do tipo Carro e atribuindo a variável carro.
@@ -18,6 +18,7 @@ public class Principal {
         meuCarro.anoFabricacao = 2020;
         meuCarro.cor = "Preto";
         meuCarro.proprietario.nome = "Walace";
+        meuCarro.precoCompra = 50000;
 
         //Atribuindo valores aos atributos
         seuCarro.fabricante = "Toyota";
@@ -34,6 +35,10 @@ public class Principal {
         System.out.printf("Ano de fabricação do meu carro: %d%n", meuCarro.anoFabricacao);
         System.out.printf("Cor do meu carro: %s%n", meuCarro.cor);
         System.out.printf("Proprietário do Carro: %s%n", meuCarro.proprietario.nome);
+
+        //Invocando um método
+        meuCarro.calcularValorRevenda();
+
 
     }
 }
