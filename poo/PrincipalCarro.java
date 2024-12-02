@@ -1,6 +1,6 @@
 package poo;
 
-public class Principal {
+public class PrincipalCarro {
     public static void main(String[] args) {
 
 //Criando uma variável do tipo Carro.
@@ -15,7 +15,7 @@ public class Principal {
         //Atribuindo valores aos atributos
         meuCarro.fabricante = "Honda";
         meuCarro.modelo = "HRV";
-        meuCarro.anoFabricacao = 2020;
+        meuCarro.anoFabricacao = 2010;
         meuCarro.cor = "Preto";
         meuCarro.proprietario.nome = "Walace";
         meuCarro.precoCompra = 50000;
@@ -29,15 +29,19 @@ public class Principal {
         seuCarro.proprietario.cpf = "010428889717";
         seuCarro.proprietario.anoNascimento = 1993;
 
+        double valorDeRevenda = meuCarro.calcularValorRevenda();
+        int tempoDeUsoEmAnos = meuCarro.calcularTempoDeUsoEmAnos();
+        double valorDoIpva = meuCarro.calcularIpva();
+
         //Acessando atributos de uma classe
-        System.out.printf("Fabricante do meu carro: %s%n", meuCarro.fabricante);
-        System.out.printf("Modelo do meu carro: %s%n", meuCarro.modelo);
-        System.out.printf("Ano de fabricação do meu carro: %d%n", meuCarro.anoFabricacao);
-        System.out.printf("Cor do meu carro: %s%n", meuCarro.cor);
-        System.out.printf("Proprietário do Carro: %s%n", meuCarro.proprietario.nome);
+        meuCarro.imprimirDadosDoVeiculo();
+        seuCarro.imprimirDadosDoVeiculo();
+
 
         //Invocando um método
-        meuCarro.calcularValorRevenda();
+        System.out.printf("Tempo de uso em (anos): %d%n", tempoDeUsoEmAnos);
+        System.out.printf("Valor de revenda: %6.2f%n", valorDeRevenda);
+        System.out.printf("Valor do IPVA: %6.2f%n", valorDoIpva);
 
 
     }
