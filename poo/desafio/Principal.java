@@ -16,7 +16,16 @@ public class Principal {
         folhaPagamento.quantidadeHorasExtrasTrabalhadas = 22;
         folhaPagamento.quantidadeHorasNormaisTrabalhadas = 50;
 
-        System.out.print(folhaPagamento.calcularSalario(contrato));
+
+
+        Holerite holerite = new Holerite();
+        Holerite calculoSalario = folhaPagamento.calcularSalario(contrato);
+        holerite.funcionario = funcionario;
+        holerite.valorTotalHorasExtras = calculoSalario.valorTotalHorasExtras;
+        holerite.valorTotalHorasNormais = calculoSalario.valorTotalHorasNormais;
+        holerite.imprimirHolerite();
+
+        //System.out.print(folhaPagamento.calcularSalario(contrato));
 
 
 
