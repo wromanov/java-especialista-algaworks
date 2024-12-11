@@ -1,4 +1,4 @@
-package poo.wrapper;
+package wrapper;
 
 public class Cliente {
 

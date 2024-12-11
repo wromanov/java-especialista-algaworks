@@ -1,4 +1,4 @@
-package poo;
+package poo.fundamentos;
 
 public class CalculadoraImc {
 
