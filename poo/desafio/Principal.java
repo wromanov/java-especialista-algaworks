@@ -17,7 +17,6 @@ public class Principal {
         folhaPagamento.quantidadeHorasNormaisTrabalhadas = 50;
 
 
-
         Holerite holerite = new Holerite();
         Holerite calculoSalario = folhaPagamento.calcularSalario(contrato);
         holerite.funcionario = funcionario;

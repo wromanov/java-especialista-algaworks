@@ -1,4 +1,4 @@
-package poo;
+package poo.fundamentos;
 
 public class PrincipalPaciente {
     public static void main(String[] args) {
