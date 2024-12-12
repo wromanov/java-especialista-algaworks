@@ -1,4 +1,4 @@
-package wrapper;
+package poo.wrapper;
 
 public class Principal {
     public static void main(String[] args) {
